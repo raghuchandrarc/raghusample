@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="mavenprojectgithub.LeanFtTest">
+        <methods>
+          <include name="baseAfterClass"/>
+          <include name="baseAfterSuite"/>
+          <include name="baseBeforeSuite"/>
+          <include name="test"/>
+          <include name="baseAfterMethod"/>
+        </methods>
+      </class> <!-- mavenprojectgithub.LeanFtTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
