@@ -24,6 +24,10 @@ public class LeanFtTest extends UnitTestClassBase {
     			.id("lst-ib").build()).setValue("Facebook");;
     
     }
+    @Test
+    public void test2() throws GeneralLeanFtException {
+    	driver=BrowserFactory.launch(BrowserType.CHROME);
+    }
     //https://github.com/raghuchandrarc/raghusample.git
 
 }
