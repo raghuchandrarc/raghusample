@@ -17,7 +17,7 @@ public class LeanFtTest extends UnitTestClassBase {
 
     
     @Test
-    public void test() throws GeneralLeanFtException {
+    public void test() throws GeneralLeanFtException { 
     	driver=BrowserFactory.launch(BrowserType.CHROME);
     	driver.navigate("https://www.google.co.in/");
     	driver.describe(EditField.class, new EditFieldDescription.Builder()
@@ -25,7 +25,7 @@ public class LeanFtTest extends UnitTestClassBase {
     
     }
     @Test
-    public void test4() throws  GeneralLeanFtException {
+    public void test5() throws  GeneralLeanFtException {
     	driver=BrowserFactory.launch(BrowserType.CHROME);
     }
     //https://github.com/raghuchandrarc/raghusample.git
