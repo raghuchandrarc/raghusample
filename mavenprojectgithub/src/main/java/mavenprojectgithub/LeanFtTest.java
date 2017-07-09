@@ -25,7 +25,7 @@ public class LeanFtTest extends UnitTestClassBase {
     
     }
     @Test
-    public void test221() throws  GeneralLeanFtException {
+    public void test21() throws  GeneralLeanFtException {
     	driver=BrowserFactory.launch(BrowserType.CHROME);
     }
     //https://github.com/raghuchandrarc/raghusample.git
